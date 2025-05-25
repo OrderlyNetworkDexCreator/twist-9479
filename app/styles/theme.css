@@ -2,81 +2,81 @@
   --oui-font-family: 'Manrope', sans-serif;
 
   /* colors */
-  --oui-color-primary: 98 57 163;
-  --oui-color-primary-light: 149 109 204;
-  --oui-color-primary-darken: 63 30 133;
-  --oui-color-primary-contrast: 255 255 255;
+  --oui-color-primary: 48 145 134;               /* Teal - from theme.css --oui-color-primary */
+  --oui-color-primary-light: 24 124 231;          /* Blue - from theme.css --oui-color-primary-light */
+  --oui-color-primary-darken: 51 146 153;         /* Darker Teal - from theme.css --oui-color-primary-darken */
+  --oui-color-primary-contrast: 255 255 255;      /* from theme.css */
 
-  --oui-color-link: 126 87 170;
-  --oui-color-link-light: 173 132 206;
+  --oui-color-link: 189 107 237;                  /* Purple - from theme.css --oui-color-link */
+  --oui-color-link-light: 217 152 250;            /* Lighter Purple - from theme.css --oui-color-link-light */
 
-  --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  --oui-color-secondary: 255 255 255;             /* from theme.css */
+  --oui-color-tertiary: 218 218 218;               /* from theme.css */
+  --oui-color-quaternary: 218 218 218;             /* from theme.css */
 
-  --oui-color-danger: 245 97 139;
-  --oui-color-danger-light: 250 167 188;
-  --oui-color-danger-darken: 237 72 122;
-  --oui-color-danger-contrast: 255 255 255;
+  --oui-color-danger: 245 97 139;                 /* from theme.css */
+  --oui-color-danger-light: 250 167 188;          /* from theme.css */
+  --oui-color-danger-darken: 237 72 122;          /* from theme.css */
+  --oui-color-danger-contrast: 255 255 255;       /* from theme.css */
 
-  --oui-color-success: 41 233 169;
-  --oui-color-success-light: 101 240 194;
-  --oui-color-success-darken: 0 161 120;
-  --oui-color-success-contrast: 255 255 255;
+  --oui-color-success: 41 233 169;                /* from theme.css */
+  --oui-color-success-light: 101 240 194;         /* from theme.css */
+  --oui-color-success-darken: 0 161 120;          /* from theme.css */
+  --oui-color-success-contrast: 255 255 255;      /* from theme.css */
 
-  --oui-color-warning: 255 209 70;
-  --oui-color-warning-light: 255 229 133;
-  --oui-color-warning-darken: 255 152 0;
-  --oui-color-warning-contrast: 255 255 255;
+  --oui-color-warning: 255 209 70;                /* from theme.css */
+  --oui-color-warning-light: 255 229 133;         /* from theme.css */
+  --oui-color-warning-darken: 255 152 0;          /* from theme.css */
+  --oui-color-warning-contrast: 255 255 255;      /* from theme.css */
 
-  --oui-color-fill: 44 31 64;
-  --oui-color-fill-active: 49 40 72;
+  --oui-color-fill: 36 32 47;                     /* from theme.css */
+  --oui-color-fill-active: 40 46 58;              /* from theme.css */
 
-  --oui-color-base-1: 75 62 107;
-  --oui-color-base-2: 63 52 91;
-  --oui-color-base-3: 56 46 77;
-  --oui-color-base-4: 48 41 66;
-  --oui-color-base-5: 42 36 59;
-  --oui-color-base-6: 36 32 51;
-  --oui-color-base-7: 31 27 44;
-  --oui-color-base-8: 26 23 38;
-  --oui-color-base-9: 20 18 32;
-  --oui-color-base-10: 14 13 18;
+  --oui-color-base-1: 93 83 123;                  /* from theme.css */
+  --oui-color-base-2: 81 72 107;                  /* from theme.css */
+  --oui-color-base-3: 68 61 69;                   /* from theme.css */
+  --oui-color-base-4: 57 52 74;                   /* from theme.css */
+  --oui-color-base-5: 51 46 66;                   /* from theme.css */
+  --oui-color-base-6: 43 38 56;                   /* from theme.css */
+  --oui-color-base-7: 36 32 47;                   /* from theme.css */
+  --oui-color-base-8: 29 26 38;                   /* from theme.css */
+  --oui-color-base-9: 22 20 28;                   /* from theme.css */
+  --oui-color-base-10: 14 13 18;                  /* from theme.css */
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-base-foreground: 255 255 255;       /* from theme.css */
+  --oui-color-line: 255 255 255;                  /* from theme.css */
 
-  --oui-color-trading-loss: 245 97 139;
-  --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
-  --oui-color-trading-profit-contrast: 255 255 255;
+  --oui-color-trading-loss: 245 97 139;           /* from theme.css */
+  --oui-color-trading-loss-contrast: 255 255 255; /* from theme.css */
+  --oui-color-trading-profit: 41 233 169;         /* from theme.css */
+  --oui-color-trading-profit-contrast: 255 255 255;/* from theme.css */
 
   /* gradients */
-  --oui-gradient-primary-start: 49 24 109;
-  --oui-gradient-primary-end: 126 87 170;
+  --oui-gradient-primary-start: 40 0 97;          /* Deep Purple/Indigo - from theme.css --oui-gradient-primary-start */
+  --oui-gradient-primary-end: 189 107 237;        /* Link Purple - from theme.css --oui-gradient-primary-end */
 
-  --oui-gradient-secondary-start: 71 39 123;
-  --oui-gradient-secondary-end: 98 57 163;
+  --oui-gradient-secondary-start: 81 42 121;      /* from theme.css --oui-gradient-secondary-start */
+  --oui-gradient-secondary-end: 176 132 233;    /* from theme.css --oui-gradient-secondary-end */
 
-  --oui-gradient-success-start: 1 83 68;
-  --oui-gradient-success-end: 41 223 169;
+  --oui-gradient-success-start: 1 83 68;          /* from theme.css */
+  --oui-gradient-success-end: 41 233 169;         /* Adjusted to match --oui-color-success based on typical pattern, theme.css had 41 223 169 */
 
-  --oui-gradient-danger-start: 153 24 76;
-  --oui-gradient-danger-end: 245 97 139;
+  --oui-gradient-danger-start: 153 24 76;         /* from theme.css */
+  --oui-gradient-danger-end: 245 97 139;          /* from theme.css */
 
-  --oui-gradient-brand-start: 191 160 220;
-  --oui-gradient-brand-end: 126 87 170;
-  --oui-gradient-brand-stop-start: 6.62%;
-  --oui-gradient-brand-stop-end: 86.5%;
-  --oui-gradient-brand-angle: 17.44deg;
+  --oui-gradient-brand-start: 231 219 249;        /* Light Lavender - from theme.css --oui-gradient-brand-start */
+  --oui-gradient-brand-end: 159 107 225;          /* Softer Purple - from theme.css --oui-gradient-brand-end */
+  --oui-gradient-brand-stop-start: 6.62%;       /* from theme.css */
+  --oui-gradient-brand-stop-end: 86.5%;         /* from theme.css */
+  --oui-gradient-brand-angle: 17.44deg;         /* from theme.css */
 
-  --oui-gradient-warning-start: 152 58 8;
-  --oui-gradient-warning-end: 255 209 70;
+  --oui-gradient-warning-start: 152 58 8;         /* from theme.css */
+  --oui-gradient-warning-end: 255 209 70;         /* from theme.css */
 
-  --oui-gradient-neutral-start: 27 29 24;
-  --oui-gradient-neutral-end: 38 41 46;
+  --oui-gradient-neutral-start: 27 29 24;         /* from theme.css */
+  --oui-gradient-neutral-end: 38 41 46;           /* from theme.css */
 
-  /* rounded */
+  /* rounded - Kept from your template */
   --oui-rounded-sm: 2px;
   --oui-rounded: 4px;
   --oui-rounded-md: 6px;
@@ -85,7 +85,7 @@
   --oui-rounded-2xl: 16px;
   --oui-rounded-full: 9999px;
 
-  /* spacing */
+  /* spacing - Kept from your template */
   --oui-spacing-xs: 20rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;
